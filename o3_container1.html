@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<style>
+    
+        #red{
+            background-color: rgb(204, 127, 211);
+            height: 500px;
+        }
+        #green{
+            background-color: pink;
+            height: 200px;
+        }
+
+        #row_inside , #inside_1{
+            height: 200px;
+        }
+
+       
+</style> 
+
+</head>
+  <body>
+
+<!-- 
+
+    <div class="container-fluid" id="red">
+        <div class="row" id="green">
+            <div class="col-lg-8 bg-danger" >
+              <div class="row" id="row_inside">
+                     <div class="col-lg-4 bg-success"></div>
+                     <div class="col-lg-4 bg-primary"></div>
+                     <div class="col-lg-4 bg-warning"></div>
+
+              </div>
+            </div>
+           <div class="col-lg-2 bg-info" ></div>
+           <div class="col-lg-2 bg-primary" ></div>
+        </div>
+    </div> -->
+
+
+    <!-- col-auto will take space according to the content  -->
+
+
+    <!-- <div class="container-fluid" id="">
+        <div class="row">
+            <div class="col bg-danger"> Div1 </div>
+            <div class="col-lg-auto bg-info">i'm in div2</div>
+            <div class="col-md-auto bg-primary">div3</div>
+        </div>
+    </div> -->
+
+
+<!-- row-cols-auto ( Content ke hissab se ho jayega  / auto ke jagah koi number bhi de sakte hain  )-->
+
+<!-- <div class="container-fluid" >
+  <div class="row row-cols-2">
+
+         <div class="col bg-danger">div1</div>
+         <div class="col bg-success">this is div2</div>
+         <div class="col bg-secondary">div3</div>
+         <div class="col bg-info">this is div4</div>
+        </div>
+
+</div> -->
+
+<!--
+       Avoiding column to not take height according to the row . 
+      (align-items-start)  (align-items-end) (align-items-center) 
+-->
+
+
+<!-- <div class="container-fluid" >
+  <div class="row  align-items-center bg-warning"  style="min-height: 300px;">
+
+         <div class="col bg-danger">div1</div>
+         <div class="col bg-success">div2</div>
+         <div class="col bg-secondary">div3</div>
+         <div class="col bg-info">div4</div>
+
+  </div>
+</div> -->
+
+
+
+ <!-- sabko individually dena hai to  -->
+
+ <!-- <div class="container-fluid" >
+    <div class="row  bg-info"  style="min-height: 300px;">
+  
+           <div class="col align-self-end bg-danger">div1</div>
+           <div class="col align-self-center bg-success">div2</div>
+           <div class="col align-self-center bg-secondary">div3</div>
+           <div class="col align-self-start bg-warning">div4</div>
+  
+    </div>
+  </div> -->
+
+
+<!-- vertically align kar rahe hai  -->
+<!-- isme se koi bhi use kar sakt hain (justify-content-end),(justify-content-center),(justify-content-start) -->
+
+
+<!-- <div class="container-fluid" >
+  <div class="row  justify-content-evenly bg-secondary"  style="min-height: 200px;">
+
+        <div class="col-4 bg-info">div1</div>
+        <div class="col-4 bg-danger ">div2</div>
+       
+
+  </div>
+</div>  -->
+
+
+<!---- flex box property ---->
+
+<!--  
+  1.justify-content-around 
+  2.justify-content-between
+  3.justify-content-evenly  (space equally divide hoga)
+-->
+
+<!-- <div class="container-fluid" >
+  <div class="row  bg-warning   justify-content-evenly"  style="min-height: 200px;">
+
+        <div class="col-4 bg-info">div1</div>
+        <div class="col-4 bg-success ">div2</div>
+       
+
+  </div>
+</div>
+   -->
+
+
+<!-- reorderding (order change karna) -->
+
+
+<!-- <div class="container-fluid">
+    
+    <div class="row bg-danger" style="min-height : 200px ; ">
+         <div class="col-lg-4 bg-info text-white order-lg-2  order-md-3 "> div1</div>
+         <div class="col-lg-4 bg-secondary text-white  order-lg-3  order-md-1 ">div2</div>
+         <div class="col-lg-4 bg-warning text-white order-lg-1  order-md-2 ">div3</div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+    
+
+</body>
+</html>
